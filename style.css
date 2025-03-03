@@ -1,11 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-
 }
 
 body{
     
-    background-color: aquamarine;
+    background-color: #c5e4e7;
+    font-family:"Space Mono", serif ;
+    
+}
 
+h1{
+    text-align: center;
+    font-weight: 500;
+    margin: 1%;
+    font-size: 2rem;
+    color: #00474B;
+    
+}
+
+.tipInput h2{
+    color: #6F7A79;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2em;
+    background-color: white;
+    width: 57.5rem;
+    height: 29.7rem;
+    border-radius: 1.3rem;
+}
+
+input{
+    width: 25rem;
+    height: 2.75rem;
+    background-color: #f3f8fb;
+    border: none;
+    border-radius: 0.35rem;
+    
+}
+
+
+
+
+.button{
+    width: 7.25rem;
+    height: 3rem;
+    border-radius: 0.35rem;
+    border: none;
+    background-color: #00474B;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Space mono";
+    margin: 0.3rem;
+
+}
+
+
+
+.tipResult{
+    display: flex;
+    flex-direction: column;
+    background-color: #00474B;
+    border-radius:1.3rem ;
+    color: white;
+    padding: 2.3em;
+    width: 25.6rem;
+    gap: 3rem;
+}
+
+.tipInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:3em ;
+}
+
+.reset{
+    width: 25rem;
+    height: 2.75rem;
+    margin-top: 5rem;
+    background-color: #26c2AD;
+    border-radius: 0.35rem;
+    font-weight: 900;
+    font-family: "Space mono";
+    font-size: 1.3rem;
+
+}
+
+.people{
+    position: relative;
+}
+
+.people i{
+
+    position: absolute;
+    left: 1em;
+    top: 3rem;
 }
