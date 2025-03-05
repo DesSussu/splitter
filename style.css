@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --main-bg-color: #c5e4e7;
+    --primary-color: #00474B;
+    --secondary-color: #26c2AD;
+    --light-bg-color: #f3f8fb;
+    --text-color: white;
+    --font-family: "Space Mono", serif;
+    --border-radius: 0.35rem;
+    --gap-size: 3rem;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,8 +18,8 @@
 
 body{
     
-    background-color: #c5e4e7;
-    font-family:"Space Mono", serif ;
+    background-color: var(--main-bg-color);
+    font-family: var(--font-family);
     
 }
 
@@ -17,7 +28,7 @@ h1{
     font-weight: 500;
     margin: 1%;
     font-size: 2rem;
-    color: #00474B;
+    color: var(--primary-color);
     
 }
 
@@ -30,7 +41,7 @@ main {
     justify-content: space-between;
     margin: auto;
     padding: 2em;
-    background-color: white;
+    background-color: var(--text-color);
     width: 57.5rem;
     height: 29.7rem;
     border-radius: 1.3rem;
@@ -39,9 +50,9 @@ main {
 input{
     width: 25rem;
     height: 2.75rem;
-    background-color: #f3f8fb;
+    background-color: var(--light-bg-color);
     border: none;
-    border-radius: 0.35rem;
+    border-radius: var(--border-radius);
     
 }
 
@@ -51,13 +62,13 @@ input{
 .button{
     width: 7.25rem;
     height: 3rem;
-    border-radius: 0.35rem;
+    border-radius: var(--border-radius);
     border: none;
-    background-color: #00474B;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: "Space mono";
+    font-family: var(--font-family);
     margin: 0.3rem;
 
 }
@@ -67,12 +78,12 @@ input{
 .tipResult{
     display: flex;
     flex-direction: column;
-    background-color: #00474B;
-    border-radius:1.3rem ;
-    color: white;
+    background-color: var(--primary-color);
+    border-radius: 1.3rem;
+    color: var(--text-color);
     padding: 2.3em;
     width: 25.6rem;
-    gap: 3rem;
+    gap: var(--gap-size);
 }
 
 .tipInput{
@@ -86,10 +97,10 @@ input{
     width: 25rem;
     height: 2.75rem;
     margin-top: 5rem;
-    background-color: #26c2AD;
-    border-radius: 0.35rem;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
     font-weight: 900;
-    font-family: "Space mono";
+    font-family: var(--font-family);
     font-size: 1.3rem;
 
 }
