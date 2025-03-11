@@ -24,21 +24,21 @@
             <div>
                 <h2>Bill</h2>
                 <label for="quantity"></label>
-                <input type="number">
+                <input  id="cantidad" type="number">
                 
             </div>
             <div>
                 <h2>Select Tip %</h2>
-                <button class="button">5%</button>
-                <button class="button">10%</button>
-                <button class="button">15%</button>
-                <button class="button">25%</button>
-                <button class="button">50%</button>
-                <input  class="button"type="number">
+                <button class="button" id="cinco">5%</button>
+                <button class="button" id="diez">10%</button>
+                <button class="button" id="quince">15%</button>
+                <button class="button" id="veinticinco">25%</button>
+                <button class="button" id="cincuenta">50%</button>
+                <input  class="button" type="number">
             </div>
             <div class="people">
                 <h2>Number of people</h2>
-                <input type="number">
+                <input id="personas" type="number">
                 <i class="fas fa-user-tie"></i>
             </div>
         </section>
@@ -48,8 +48,8 @@
                 <p>/person</p>
             </div>
             <div>
-                <p>
-                </p>
+                <p id="tipAmount">0.00</p>
+                
             </div>
             <div>
                 <div>
@@ -57,8 +57,7 @@
                     <p>/person</p>
                 </div>
                 <div>
-                    <p>
-                    </p>
+                    <p id="total">0.00</p>
                 </div>
             </div> 
 
@@ -66,5 +65,6 @@
         </section>
         
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
